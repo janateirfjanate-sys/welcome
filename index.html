@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Drive <span>Smart</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Vechiles
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/suv.html">suvs</a></li>
+                  <hr class="dropdown-divider">
+                <li><a class="dropdown-item" href="/sport.html">sport</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/sedan.html">sedan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/contact.html">contact</a>
+            </li>
+        
+
+
+          </ul>
+                     <button class="btn btn-primary "><a href="/contact.html" class="text-light text-decoration-none">Contact Sales</a></button>
+        </div>
+
+
+      </div>
+
+    </nav>
+
+
+
+  </header>
+  <main>
+    <!-- hero  -->
+    <section class="hero">
+      <div class="hero-content  d-flex justify-content-center  p-5 flex-column vh-100 text-light">
+        <h1 class="fw-bold">Find Your Perfect Car</h1>
+        <P class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus
+          animi, suscipit itaque quaerat earum odio nobis nemo voluptatem excepturi sunt eveniet sint non. Consequuntur
+          voluptatum saepe illo non quia?</P>
+        <div> <button class="btn btn-primary">Browse Inventary</button>
+          <button class="btn btn-light">Contact us</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- feature  -->
+    <section id="collection">
+        <div class="container py-5">
+      <h1 class="text-center fw-bold">Explore our Collection</h1>
+      <p class="text-center">Browse oue extansiv inventory featuring variuos category to find your ideal vehicles</p>
+    
+        <div class="   row  flex-wrap  justify-content-center align-items-center g-4 ">
+          <div class="  col-12 col-md-6 col-lg-4">
+            <div class="card ">
+              <img src="/hero.jpg" alt="">
+              <div class="card-body">
+                <h2>suvs</h2>
+                <p>Spacious and versatile vehicles perfect for familes and advanture</p>
+                <a href="/suv.html"><button class="btn btn-outline-dark">View all ></button></a>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="/sedan.jpg" alt="">
+              <div class="card-body">
+                <h2>Sedans</h2>
+                <p>Elegant and efficent cars ideal for daily community and city driving.</p>
+            <a href="/sedan.html"><button class="btn btn-outline-dark">View all ></button></a>
+              </div>
+            </div>
+          </div>
+          <div class=" col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="/sports.jpg" alt="">
+             
+              <div class="card-body">
+                <h2>Sports cars</h2>
+                <p>Height-Perfomance vehicles designedfor speed, handling and excitment</p>
+                <a href="/sport.html"><button class="btn btn-outline-dark">View all ></button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- card  -->
+      <section id="collection">
+       <div class="d-flex justify-content-between container">
+        <div>
+           <h1 class="fw-bolder">Explore our Collection</h1>
+        <p class="lead">Browse oue extansiv inventory featuring variuos category to find  </p>
+        </div>
+        <div>
+          <button class="btn btn-primary"> Broswer inventory</button>
+        </div>
+       </div>
+        <div class="container py-5">
+          <div class="row  flex-wrap  justify-content-center align-items-center g-4 ">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card ">
+                <img src="/BMW-5.jpg" alt="">
+                <span class="badge bg-secondary position-absolute m-3  bg-dark">Suvs</span>
+                <div class="card-body">
+                  <h1>Suvs</h1>
+                  <ul class=" p-0">
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                  </ul>
+
+   <button class="btn btn-outline-dark">View all ></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img src="/hero.jpg" alt="">
+                 <span class="badge bg-secondary position-absolute m-3  bg-dark">Suvs</span>
+                <div class="card-body">
+                  <h1>Suvs</h1>
+                 <ul class=" p-0">
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                  </ul>
+    <button class="btn btn-outline-dark">View all ></button>
+
+                </div>
+              </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img src="/BMW-4.jpg" alt="">
+                  <span class="badge bg-secondary position-absolute m-3 bg-dark">Suvs</span>
+                <div class="card-body">
+                  <h1>Suvs</h1>
+                  <ul class=" p-0">
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                  </ul>
+   <button class="btn btn-outline-dark">View all ></button>
+                </div>
+              </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-3">
+              <div class="card">
+                <img src="/sports.jpg" alt="">
+                 <span class="badge bg-secondary position-absolute m-3  bg-dark">Suvs</span>
+                <div class="card-body">
+                  <h1>Suvs</h1>
+                  <ul class=" p-0">
+                    <li>
+                       <i class="fa-solid fa-check"></i>
+                    lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li><i class="fa-solid fa-check"></i>lorem</li>
+                    <li> <i class="fa-solid fa-check"></i>lorem</li>
+                  </ul>
+    <button class="btn btn-outline-dark">View all ></button>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+ </div>
+          <!-- card  -->
+          <section id="conection">
+            <div class="container py-5 ">
+              <h1 class="text-center fw-bold">Explore our Collection</h1>
+              <p class="text-center">Browse oue extansiv inventory featuring variuos category to find your ideal
+                vehicles</p>
+
+              <div class="   row  flex-wrap  justify-content-center align-items-center g-4 ">
+                <div class="  col-12 col-md-6 col-lg-3">
+                  <div class="card">
+
+                    <div class="card-body">
+                     <div class="body">
+                    <span><i class="fa-solid fa-check"></i></span>
+                     </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                        dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit assumenda
+                        cumque adipisci rerum. Distinctio.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-12 col-md-6 col-lg-3">
+                  <div class="card">
+
+                    <div class="card-body">
+                     <div class="body">
+                       <i class="fa-solid fa-clock"></i>
+                     </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                        dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit assumenda
+                        cumque adipisci rerum. Distinctio.</p>
+
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-12 col-md-6 col-lg-3">
+                  <div class="card">
+
+                    <div class="card-body">
+                      <div class="body">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                        dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit assumenda
+                        cumque adipisci rerum. Distinctio.</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class=" col-12 col-md-6 col-lg-3">
+                  <div class="card">
+
+                    <div class="card-body">
+                     <div class="body"> <i class="fa-solid fa-shield"></i></div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                        dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit assumenda
+                        cumque adipisci rerum. Distinctio.</p>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!--  -->
+
+            <section id="collection">
+              <div class="container py-5 ">
+                <h1 class="text-center fw-bold">Explore our Collection</h1>
+                <p class="text-center">Browse oue extansiv inventory featuring variuos category to find your ideal
+                  vehicles</p>
+
+                <div class="row  flex-wrap  justify-content-center align-items-center g-4 ">
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card ">
+
+                      <div class="card-body">
+                        <h2 class="text-center">jhonsen</h2>
+                        <div class="i">
+                          <i class="fa-solid fa-quote-left"></i>
+                      </div>                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                          dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit
+                          assumenda cumque adipisci rerum. Distinctio.</p>
+                          <div class=" star">
+                            <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                          </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-12 col-md-6 col-lg-3">
+                    <div class="card">
+
+                      <div class="card-body">
+                        <h2 class=" text-center">jhonsen</h2>
+                       <div class="i">
+                          <i class="fa-solid fa-quote-left"></i>
+                      </div>                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                          dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit
+                          assumenda cumque adipisci rerum. Distinctio.</p>
+<div class=" star">
+                            <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                          </div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-12 col-md-6 col-lg-3">
+                    <div class="card">
+
+                      <div class="card-body">
+                        <h2 class=" text-center">jhonsen</h2>
+                      <div class="i">
+                          <i class="fa-solid fa-quote-left"></i>
+                      </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa at facilis provident
+                          dolores, neque sint id minima reprehenderit impedit nulla natus perferendis velit sit
+                          assumenda cumque adipisci rerum. Distinctio.</p>
+                          <div class=" star">
+                            <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                          </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                 
+              </div>
+
+  </div>
+
+
+
+
+<footer>
+
+              <section id="container py-5 ">
+                <div class=" footer row flex-wrap text-light py-5">
+                  <div class="col-12 col-md-6 col-lg-3 p-4">
+                    <h1>Drive <span>smart</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est cum magnam maiores voluptate
+                      necessitatibus. Recusandae error quis iure aliquid ipsam asperiores itaque autem maiores in
+                      tempora tenetur, suscipit numquam?</p>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 p-4">
+                    <h2>Quick Link</h2>
+                    <ul>
+                      <li>Home</li>
+                      <li>Vechiles</li>
+                      <li>About us</li>
+                      <li>Conatct</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 p-4">
+                    <h2>vechiles categories</h2>
+                    <ul>
+                      <li>Suvs</li>
+                      <li>Sedan</li>
+                      <li>Sport</li>
+                    </ul>
+                  </div>
+                  
+                  <div class="col-12 col-md-6 col-lg-3">
+                   <h2>Contact Us</h2>
+                   
+                    <ul>
+                      <li>123 audio drive</li>
+                      <li>Karachi pakistan</li>
+                      <li>Phone (021) 123-4567</li>
+                      <li>Emai info@drivesamrt</li>
+                    </ul>
+                  </div>
+<hr>
+<div class="row align-items-center ">
+  <div class="col-md-6 text-start">
+    <p>&copy;
+      Drivesamrt.All Rervesed</p>
+  </div>
+<div class="col-md-6 text-end">
+   <i class="fa-brands fa-linkedin"></i>
+   <i class="fa-brands fa-facebook"></i>
+   <i class="fa-brands fa-twitter"></i>
+     <i class="fa-brands fa-instagram"></i>
+
+</div>
+</div>
+
+                </div>
+              </section>
+              </footer>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
+ 
